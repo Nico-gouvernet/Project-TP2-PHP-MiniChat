@@ -16,5 +16,11 @@
         Cette page est pour le personnel de TF1. Attention N'oubliez pas que les codes d'accès sont changés régulièrement.<br />
         TF1 vous remercie de votre visite.
         </p>
+        <div id="contenu">
+         <p>Cliquez sur valider pour accéder à la discussion instantanée .</p>
+            <form action="secret.php" method="post">
+                <input type="submit" value="Valider" />
+             </form>
+       </div>
 </body>
 </html>
