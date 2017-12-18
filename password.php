@@ -22,5 +22,12 @@
                 <input type="submit" value="Valider" />
              </form>
        </div>
+         <?php
+    }
+    else // Sinon, message d'erreur
+    {
+        echo '<p>Mot de passe invalide</p>';
+    }
+    ?>
 </body>
 </html>
