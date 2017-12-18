@@ -1,9 +1,22 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-</head>
-<body>
+    <head>
+        <meta charset="utf-8" />
+        <title>Mini-chat</title>
+    </head>
+    <style>
+        form {
+            background-color:#895959;
+            color: white;  
+            text-align: center; 
+            font-family:sans-serif;
+            font-size: 1.2em;
+            }
+             body {
+             background-color: #B78178;
+            }
+    </style>
+    <body>
 <form action="minichat_post.php" method="post">
         <p>
         <label for="pseudo">Pseudo</label> : <input type="text" name="pseudo" id="pseudo" /><br />
