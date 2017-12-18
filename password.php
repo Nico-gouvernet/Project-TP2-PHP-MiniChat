@@ -1,9 +1,33 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-</head>
-<body>
+    <head>
+        <meta charset="utf-8" />
+        <title>Mot de passe pour les infos du serveur central de TF1 </title>
+    </head>
+    <body>  
+        <style>
+        body {
+            background-color: #B78178;
+            color: white;  
+            text-align: center; 
+            font-family:sans-serif;
+            font-size: 1.2em;
+            }
+          #contenu{
+            background: #895959;
+            height: 100px;
+            color: white;
+            font-family: sans-serif;
+            font-size: 1em;
+            padding-top: 30px;
+            }
+            input{
+                background:#B78178;
+                color: white;
+                border-radius: 10px;
+                font-size:1em;
+                cursor: pointer;
+    </style>
  <?php
     if (isset($_POST['password']) AND $_POST['password'] ==  "kangourou") // Mot de passe correct
     {
